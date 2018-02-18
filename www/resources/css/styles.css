@@ -1,0 +1,52 @@
+
+html{
+  font-size: 16px;
+
+}
+
+body{
+
+}
+
+
+#container{
+  margin: 6px;
+
+}
+
+h1{
+  font-size:1.75rem;
+  font-family: Georgia;
+  font-weight: bold;
+}
+img{
+  width: 10rem;
+  margin-right: .5rem;
+}
+
+#resultContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#result{
+
+
+  background-image:  url("../../resources/images/Clouds_Mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
+
+  font-size: 1.5rem;
+
+
+}
+#weatherResults{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
